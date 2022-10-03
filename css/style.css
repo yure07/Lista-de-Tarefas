@@ -1,0 +1,90 @@
+:root {
+    --primary-color: rgb(17, 86, 102);
+        /* cria variaveis no css */
+
+}
+
+* {
+    /*formata todas tags*/
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    padding: 0;
+    background: url("../img/imagem-fundo.png");
+}
+
+input {
+    width: 350px;
+    height: 30px;
+    border-radius: 8px;
+    border: 2px solid rgb(85, 75, 75);
+    margin-left: 45px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+.btn-tarefa {
+    padding: 8px;
+    background:rgb(3, 126, 241);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none; 
+    margin-left: 10px;
+    font-weight: bold;
+}
+.btn-tarefa:hover {
+    background:rgb(3, 66, 241);
+}
+
+
+    /* -- Lista -- */
+.container {
+    max-width: 610px;
+    margin: 30px auto;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+    box-shadow: 5px 9px 3px #000;;
+    background: #c6c3c2;
+}
+
+.apagar {
+    padding: 8px;
+    background:rgb(238, 8, 8);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    float: right;
+    font-weight: bold;
+}
+.apagar:hover {
+    background: rgb(255, 0, 0);
+}
+
+.concluida {
+    margin-right: 5px;   
+    padding: 8px;
+    background: rgb(9, 240, 48);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    float: right;
+    font-weight: bold;
+}
+.concluida:hover {
+    background: rgb(79, 180, 48);}
